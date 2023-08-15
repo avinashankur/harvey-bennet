@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables.scss";
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-primary);
+}
+
+.article_page {
+  @apply mx-[9.5rem] pt-36 pb-32 border;
+  background-color: var(--clr-bg-secondary);
+  border-top: 0;
+  border-bottom: 0;
+  border-color: var(--clr-border);
+}
+
+.page {
+  @apply mx-[9.5rem] px-20 pt-36 pb-32 border;
+  background-color: var(--clr-bg-secondary);
+  border-top: 0;
+  border-bottom: 0;
+  border-color: var(--clr-border);
+}
+
+.clr_accent {
+  color: var(--clr-accent);
+}
+
+.clr_bg {
+  background-color: var(--clr-bg);
+}
+
+.clr_bg_secondary {
+  background-color: var(--clr-bg-secondary);
+}
+
+.clr_primary {
+  color: var(--clr-primary);
+}
+
+.clr_secondary {
+  color: var(--clr-secondary);
+}
+
+.clr_bg_nav {
+  background-color: var(--clr-bg-nav);
+}
+
+.clr_border {
+  border-color: var(--clr-border);
+}
+
+.clr_light {
+  color: var(--clr-light);
+}
+
+.clr_bg_blog_home {
+  &:hover {
+    background-color: var(--clr-hover-home-card-bg);
+  }
+}
+
+.clr_contrast {
+  background-color: var(--clr-primary);
+}
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --clr-border: #2f2f32;
+//     --clr-bg-nav: #252529;
+//     --clr-selection-bg: white;
+//     --clr-selection-text: black;
+//     --clr-bg: rgb(0, 0, 0);
+//     --clr-bg-secondary: #18181b;
+//     --clr-primary: rgb(226, 226, 226);
+//     --clr-secondary: ;
+//     --clr-secondary: rgb(154, 154, 154);
+//     --clr-light: rgb(98, 98, 98);
+//     --clr-hover-home-card-bg: #202022;
+//   }
+// }

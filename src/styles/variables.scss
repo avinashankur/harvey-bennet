@@ -1,0 +1,27 @@
+:root {
+  --clr-accent: rgb(153, 1, 235);
+  --clr-selection-bg: black;
+  --clr-selection-text: white;
+  --clr-bg: rgb(250, 250, 250);
+  --clr-bg-secondary: rgb(255, 255, 255);
+  --clr-primary: rgb(15, 15, 15);
+  --clr-secondary: rgb(93, 93, 93);
+  --clr-light: rgb(187, 187, 187);
+  --clr-border: #f4f4f5;
+  --clr-hover-home-card-bg: #f8fafc;
+}
+
+.dark-mode-variables {
+  --clr-border: #2f2f32;
+  --clr-bg-nav: #252529;
+  --clr-selection-bg: white;
+  --clr-selection-text: black;
+  --clr-bg: rgb(0, 0, 0);
+  --clr-bg-secondary: #18181b;
+  --clr-primary: rgb(226, 226, 226);
+  --clr-secondary: ;
+  --clr-secondary: rgb(154, 154, 154);
+  --clr-light: rgb(98, 98, 98);
+  --clr-hover-home-card-bg: #202022;
+}
+
