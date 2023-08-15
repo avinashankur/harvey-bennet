@@ -16,7 +16,7 @@ const Uses = () => {
       </div>
 
       {/* main content */}
-      <div className="clr_border flex mt-16 border-l pl-5 text-sm">
+      <div className="clr_border flex mt-16 border-l pl-5 text-sm gap-2">
         <p className="clr_secondary basis-[20%]">Workstation</p>
         <div className="basis-[80%] max-w-xl">
           <UsesCard
@@ -44,7 +44,7 @@ const Uses = () => {
       </div>
 
       {/* part 2 */}
-      <div className="clr_border flex mt-16 border-l pl-5 text-sm">
+      <div className="clr_border flex mt-16 border-l pl-5 text-sm gap-2">
         <p className="clr_secondary basis-[20%]">Development Tools</p>
         <div className="basis-[80%] max-w-xl">
           <UsesCard
@@ -75,7 +75,7 @@ const Uses = () => {
       </div>
 
       {/* part 4 */}
-      <div className="clr_border flex mt-16 border-l pl-5 text-sm">
+      <div className="clr_border flex mt-16 border-l pl-5 text-sm gap-2">
         <p className="clr_secondary basis-[20%]">Productivity</p>
         <div className="basis-[80%] max-w-xl">
           <UsesCard

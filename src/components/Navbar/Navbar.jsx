@@ -4,7 +4,7 @@ import ButtonDark from "../ButtonDark/ButtonDark";
 
 const Navbar = () => {
   return (
-    <nav className="clr_border border-b-0 flex justify-between items-center border mx-[9.5rem] px-32 pt-6 clr_bg_secondary">
+    <header id = "header" className="clr_border border-b-0 flex justify-between items-center border mx-[9.5rem] px-32 pt-6 clr_bg_secondary z-30">
       <Link href="/" className="w-12 h-12 rounded-full relative overflow-hidden">
         <Image
           alt="avatar"
@@ -12,7 +12,7 @@ const Navbar = () => {
           src="/avatar.webp"
         />
       </Link>
-      <div className="clr_bg_nav clr_border flex text-sm font-medium  shadow px-4 rounded-3xl justify-center  border ">
+      <nav  id="nav" className="clr_bg_nav clr_border flex text-sm font-medium  shadow px-4 rounded-3xl justify-center  border ">
         <Link
           href="/about"
           className="hover:text-teal-500 grid place-items-center px-3 h-10 transition"
@@ -43,9 +43,9 @@ const Navbar = () => {
         >
           Uses
         </Link>
-      </div>
+      </nav>
       <ButtonDark />
-    </nav>
+    </header>
   );
 };
 

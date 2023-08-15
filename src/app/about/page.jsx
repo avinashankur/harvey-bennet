@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="page border flex gap-16 pb-32">
-      <div className="basis-[55%]">
+    <div className="page border flex gap-16 pb-32 flex-wrap">
+      <div className="max-w-xl">
         <h1 className="text-5xl font-bold">
           I’m Spencer Sharp. I live in New York City, where I design the future.
         </h1>
@@ -43,7 +43,7 @@ const About = () => {
         </p>
         <p></p>
       </div>
-      <div className="basis-[45%]">
+      <div className="flex-1">
         <div className="relative w-full h-[25rem] overflow-hidden rounded-3xl">
           <Image src="/portrait.webp" alt="portrait" fill />
         </div>

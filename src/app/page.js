@@ -15,17 +15,17 @@ import ArticleCard from "@/components/ArticleCard/ArticleCard";
 const Home = () => {
   return (
     <div className="page">
-      <h1 className="text-5xl font-bold tracking-tight">
+      <h1 className="pl text-5xl font-bold tracking-tight">
         Software designer, founder,
         <br /> and amateur astronaut.
       </h1>
-      <p className="clr_secondary py-6">
+      <p className="pl clr_secondary py-6">
         I’m Spencer, a software designer and entrepreneur based in New York
         City. I’m the founder <br /> and CEO of Planetaria, where we develop
         technologies that empower regular people to explore <br /> space on
         their own terms.
       </p>
-      <div className="clr_secondary flex gap-4 text-2xl">
+      <div className="pl clr_secondary flex gap-4 text-2xl">
         <Link href="/">
           <AiOutlineTwitter />
         </Link>
@@ -41,15 +41,15 @@ const Home = () => {
       </div>
 
       {/* Images */}
-      <div className="mt-28 pb-8 flex gap-8">
-        <div className="h-[18rem] w-[16rem] rounded-lg overflow-hidden clr_bg rotate-3"><Image src="/image-1.webp" alt="image" fill className="object-cover"/></div>
-        <div className="h-[18rem] w-[16rem] rounded-lg overflow-hidden clr_bg -rotate-3"><Image src="/image-2.webp" alt="image" fill className="object-cover"/></div>
-        <div className="h-[18rem] w-[16rem] rounded-lg overflow-hidden clr_bg rotate-2"><Image src="/image-3.webp" alt="image" fill className="object-cover"/></div>
-        <div className="h-[18rem] w-[16rem] rounded-lg overflow-hidden relative clr_bg"><Image src="/image-4.webp" alt="image" fill className="object-cover"/></div>
+      <div className="mt-28 pb-8 flex gap-8 flex-wrap justify-center">
+        <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg rotate-3"><Image src="/image-1.webp" alt="image" fill className="object-cover"/></div>
+        <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg -rotate-3"><Image src="/image-2.webp" alt="image" fill className="object-cover"/></div>
+        <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg rotate-2"><Image src="/image-3.webp" alt="image" fill className="object-cover"/></div>
+        <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden relative clr_bg"><Image src="/image-4.webp" alt="image" fill className="object-cover"/></div>
       </div>
       {/* Blog, Subscribe and Work */}
-      <div className="flex mt-32 gap-16">
-        <div className="flex flex-col gap-2">
+      <div className="flex mt-32 gap-15 justify-between flex-wrap">
+        <div className="flex flex-col gap-2 max-w-md ">
           <ArticleCard
             href="/"
             date="| September 5, 2022"
@@ -76,7 +76,7 @@ const Home = () => {
           />
         </div>
         <div>
-          <div className="clr_border border p-8 text-sm rounded-2xl">
+          <div id="join" className="clr_border border p-8 text-sm rounded-2xl">
             <div className="flex gap-2 items-center mb-3">
               <FiMail className="text-xl" />
               <h1 className="font-medium">Stay up to date</h1>
@@ -85,19 +85,20 @@ const Home = () => {
               Get notified when I publish something new, and unsubscribe at any
               time.
             </p>
-            <form action="" className="flex">
+            <form action="" className="flex flex-wrap gap-4 justify-between">
               <input
                 type="email"
                 placeholder="Email address"
-                className="clr_border shadow py-3 px-2 w-[18rem] rounded-md border mr-4 text-black"
+                className="clr_border shadow py-3 px-2 flex-1 rounded-md border mr text-black"
               />
-              <button className="bg-slate-600 text-white px-3 rounded-md font-medium">
+              <button className="bg-slate-600 text-white px-2 rounded-md font-medium py-3">
                 Join
               </button>
             </form>
           </div>
+
           {/* WOrk */}
-          <div className="clr_border mt-8 border p-8 text-sm rounded-2xl">
+          <div id="join" className="clr_border mt-8 border p-8 text-sm rounded-2xl">
             <div className="flex gap-4 items-center">
               <MdWorkOutline className="text-xl" />
               <h1 className="font-medium">Work</h1>

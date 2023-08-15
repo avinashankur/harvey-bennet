@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import "./variables.scss";
+@import "./media.scss";
 
 body {
   background-color: var(--clr-bg);
@@ -82,3 +83,61 @@ body {
 //     --clr-hover-home-card-bg: #202022;
 //   }
 // }
+
+@media only screen and (max-width: 1110px) {
+  #header {
+    margin-inline: 0rem;
+  }
+
+  .page {
+    margin-inline: 0rem;
+  }
+
+  #footer {
+    margin-inline: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    padding-inline: 1rem;
+    position: sticky;
+    top: 0;
+    padding: 0.6rem 0.5rem;
+    background-color: rgba(213, 213, 213, 0.21);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    #nav {
+      display: none;
+    }
+  }
+
+  .page {
+    padding-inline: 0.5rem;
+    margin-inline: auto;
+
+    .pl {
+      padding-left: 1rem;
+    }
+
+    #join {
+      form {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+
+  #footer {
+    justify-content: center;
+    padding-inline: 0.5rem;
+  }
+
+  #menu-bottom {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--clr-bg);
+    width: 100vw;
+  }
+}
