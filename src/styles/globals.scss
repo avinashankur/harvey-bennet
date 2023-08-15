@@ -139,5 +139,25 @@ body {
     bottom: 0;
     background-color: var(--clr-bg);
     width: 100vw;
+
+    .menu-link {
+      transition: color 0.5s, opacity 1s;
+    }
+
+    .menu-link.active {
+      color: #14b8a6;
+      opacity: 0.5;
+      animation: opacityAnimation 2s infinite alternate;
+    }
+
+    /* Define the opacity animation */
+    @keyframes opacityAnimation {
+      from {
+        opacity: 0.3;
+      }
+      to {
+        opacity: 1;
+      }
+    }
   }
 }
