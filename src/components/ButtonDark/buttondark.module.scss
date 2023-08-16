@@ -1,0 +1,28 @@
+.butt {
+  position: relative;
+
+  &::after {
+    display: none;
+    content: "⌘+M";
+    font-size: small;
+    position: absolute;
+    left: 100%;
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    color: var(--clr-primary);
+    background-color: var(--clr-bg);
+  }
+
+  &:hover::after {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .butt {
+    &:hover::after {
+      display: none;
+    }
+  }
+}

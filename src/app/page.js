@@ -41,7 +41,7 @@ const Home = () => {
       </div>
 
       {/* Images */}
-      <div className="mt-28 pb-8 flex gap-8 flex-wrap justify-center">
+      <div id="home-image" className="mt-28 pb-8 flex gap-8 flex-wrap justify-center">
         <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg rotate-3"><Image src="/image-1.webp" alt="image" fill className="object-cover"/></div>
         <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg -rotate-3"><Image src="/image-2.webp" alt="image" fill className="object-cover"/></div>
         <div className="h-[18rem] w-[14rem] rounded-lg overflow-hidden clr_bg rotate-2"><Image src="/image-3.webp" alt="image" fill className="object-cover"/></div>

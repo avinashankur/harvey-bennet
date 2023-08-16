@@ -44,7 +44,7 @@ const About = () => {
         <p></p>
       </div>
       <div className="flex-1">
-        <div className="relative w-full h-[25rem] overflow-hidden rounded-3xl">
+        <div className="relative max-w-md w-full h-[25rem] overflow-hidden rounded-3xl">
           <Image src="/portrait.webp" alt="portrait" fill />
         </div>
         <div className="mt-16 text-sm flex flex-col gap-4">
