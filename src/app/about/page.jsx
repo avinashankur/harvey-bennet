@@ -13,7 +13,7 @@ const About = () => {
     <div className="page border flex gap-16 pb-32 flex-wrap">
       <div className="max-w-xl">
         <h1 className="text-5xl font-bold">
-          I’m Spencer Sharp. I live in New York City, where I design the future.
+          I’m Harvey Bennet. I live in New York City, where I design the future.
         </h1>
         <p className="clr_secondary my-8 leading-7">
           I’ve loved making things for as long as I can remember, and wrote my
@@ -78,9 +78,9 @@ const About = () => {
           </Link>
         </div>
         <div className="clr_border mt-8 pt-8 border-t text-sm">
-            <Link href="mailto:spencer@plenetaria.com" className="flex items-center gap-4 font-semibold hover:text-teal-500 duration-150">
+            <Link href="mailto:Harvey@plenetaria.com" className="flex items-center gap-4 font-semibold hover:text-teal-500 duration-150">
                 <FiMail className="clr_secondary text-xl" />
-                <p>spencer@planetaria.tech</p>
+                <p>harvey@planetaria.tech</p>
             </Link>
         </div>
       </div>

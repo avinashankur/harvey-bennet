@@ -20,7 +20,7 @@ const Home = () => {
         <br /> and amateur astronaut.
       </h1>
       <p className="pl clr_secondary py-6">
-        I’m Spencer, a software designer and entrepreneur based in New York
+        I’m Harvey, a software designer and entrepreneur based in New York
         City. I’m the founder <br /> and CEO of Planetaria, where we develop
         technologies that empower regular people to explore <br /> space on
         their own terms.

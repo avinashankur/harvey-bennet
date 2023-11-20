@@ -9,7 +9,7 @@ const Footer = () => {
             <Link href='/projects' className="hover:text-teal-500 transition ease-out">Projects</Link>
             <Link href='/uses' className="hover:text-teal-500 transition ease-out">Uses</Link>
         </div>
-        <p className="clr_light">© 2023 Spencer Sharp. All rights reserved.</p>
+        <p className="clr_light">© 2023 Harvey Bennet. All rights reserved.</p>
     </footer>
   )
 }
