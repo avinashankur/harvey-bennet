@@ -6,50 +6,50 @@ const Projects = () => {
   const cards = [
     {
       id: 1,
-      title: "Planetaria",
+      title: "NexusFlow",
       image:"/planetaria.ecd81ade.svg",
       href: "/",
-      desc: "Creating technology to empower civilians to explore space on their own terms.",
-      link: "planetaria.tech",
+      desc: "Building cutting-edge platforms that enable everyday users to create amazing digital experiences with ease",
+      link: "nexusflow.tech",
     },
     {
       id: 2,
-      title: "Animaginary",
+      title: "CodeCanvas",
       image:"/animaginary.jpg",
       href: "/",
-      desc: "High performance web animation library, hand-written in optimized WASM.",
+      desc: "AI-powered code generation library, built with advanced machine learning algorithms.",
       link: "github.com",
     },
     {
       id: 3,
-      title: "HelioStream",
+      title: "StreamSync",
       image:"/helio.webp",
       href: "/",
-      desc: "Real-time video streaming library, optimized for interstellar transmission.",
+      desc: "Real-time data streaming platform, optimized for high-performance web applications.",
       link: "github.com",
     },
     {
       id: 4,
-      title: "cosmOS",
+      title: "DevOS",
       image:"/os.webp",
       href: "/",
-      desc: "The operating system that powers our Planetaria space shuttles.",
+      desc: "The development environment that powers our NexusFlow development tools.",
       link: "github.com",
     },
     {
       id: 5,
-      title: "OpenShuttle",
+      title: "CloudDeploy",
       image:"/spaceship.webp",
       href: "/",
-      desc: "The schematics for the first rocket I designed that successfully made it to orbit.",
+      desc: "The deployment system I designed that successfully scaled to handle millions of users.",
       link: "github.com",
     },
     {
       id: 6,
-      title: "X",
+      title: "MonitorX",
       image:"/x.jpg",
       href: "/",
-      desc: "A high-performance monitoring app fo cosmoOs and more. Have been already used in the openShuttle.",
+      desc: "A high-performance monitoring app for DevOS and more. Already being used in production across multiple platforms.",
       link: "github.com",
     },
   ];
@@ -58,11 +58,11 @@ const Projects = () => {
     <div className="page">
       <div className="max-w-2xl">
         <h1 className="text-5xl font-bold">
-          Things I’ve made trying to put my dent in the universe.
+          Things I&apos;ve built trying to revolutionize the digital landscape.
         </h1>
         <p className="clr_secondary mt-6">
-          I’ve worked on tons of little projects over the years but these are
-          the ones that I’m most proud of. Many of them are open-source, so if
+          I&apos;ve worked on tons of little projects over the years but these are
+          the ones that I&apos;m most proud of. Many of them are open-source, so if
           you see something that piques your interest, check out the code and
           contribute if you have ideas for how it can be improved.
         </p>

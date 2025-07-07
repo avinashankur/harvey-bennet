@@ -6,24 +6,24 @@ const Articles = () => {
   const articles = [
     { 
       key: 1,
-      href: "/articles/crafting-a-design-system-for-a-multiplanetary-future",
-      date: "September 5, 2022",
-      title: "Crafting a design system for a multiplanetary future",
-      desc: "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system.",
+      href: "/articles/building-scalable-microservices",
+      date: "November 15, 2023",
+      title: "Building scalable microservices for the modern web",
+      desc: "Most organizations struggle to maintain legacy monolithic systems, but for NexusFlow we needed to architect a platform that would scale seamlessly for the next decade as we expand our global infrastructure and user base.",
     },
     { 
       key: 2,
-      href: "/articles/introducing-animaginary",
-      date: "September 2, 2022",
-      title: "Introducing Animaginary: High performance web animations",
-      desc: "When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.",
+      href: "/articles/revolutionizing-ui-ux-with-ai",
+      date: "November 12, 2023",
+      title: "Revolutionizing UI/UX with AI-powered design systems",
+      desc: "When you're creating a platform as innovative as NexusFlow, you need to push boundaries. I wanted developers to experience our interface and see interactions that felt more intuitive than anything they'd used before.",
     },
     { 
       key: 3,
-      href: "/articles/rewriting-the-cosmos-kernel-in-rust",
-      date: "July 14, 2022",
-      title: "Rewriting the cosmOS kernel in Rust",
-      desc: "When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language with a lot of benefits, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.",
+      href: "/articles/migrating-to-typescript-nextjs",
+      date: "October 28, 2023",
+      title: "Migrating our entire stack to TypeScript and Next.js",
+      desc: "When we launched the initial version of NexusFlow last year, it was built with vanilla JavaScript. JavaScript is an excellent language with many advantages, but it's been a while since I've seen developers raving about migrating large codebases to JavaScript and I see teams moving to TypeScript every single day.",
     },
   ];
 
@@ -31,19 +31,17 @@ const Articles = () => {
     <div className="page ">
       <div className="max-w-2xl">
         <h1 className="text-5xl font-bold">
-          Writing on software design, company building, and the aerospace
-          industry.
+          Writing on software architecture, product innovation, and digital platforms.
         </h1>
         <p className="clr_secondary mt-6">
-          All of my long-form thoughts on programming, leadership, product
-          design, and more, collected in chronological order.
+          All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.
         </p>
       </div>
 
       {/* articles */}
       <div className="mt-16">
         {articles.map((article) => (
-          <div key={article.id} className="flex  text-sm border-0 border-l clr_border">
+          <div key={article.key} className="flex  text-sm border-0 border-l clr_border">
             <time className="clr_light p-6 basis-[20%]">{article.date}</time>
             <Link
               href={article.href}
